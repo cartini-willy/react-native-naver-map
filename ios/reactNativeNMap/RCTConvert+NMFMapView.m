@@ -6,10 +6,10 @@
 //
 
 #import <NMapsMap/NMFCameraUpdate.h>
-#import <NMapsGeometry/NMGLatLng.h>
 #import <NMapsMap/NMFCameraPosition.h>
-#import <NMapsGeometry/NMGLatLngBounds.h>
 #import <NMapsMap/NMFOverlay.h>
+#import <NMapsGeometry/NMGLatLng.h>
+#import <NMapsGeometry/NMGLatLngBounds.h>
 
 #import "RCTConvert+NMFMapView.h"
 
