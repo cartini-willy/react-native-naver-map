@@ -36,8 +36,8 @@
 
     __block RNNaverMapMarker *this = self;
     _realMarker.touchHandler = ^BOOL(NMFOverlay *overlay) {
-      if (this.onMarkerClick != nil) {
-        this.onMarkerClick(@{});
+      if (this.onClick != nil) {
+        this.onClick(@{});
         return YES;
       }
       return NO;

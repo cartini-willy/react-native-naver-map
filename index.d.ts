@@ -141,7 +141,7 @@ interface RNNaverMapView extends React.Component<{}, any> {
 }
 export interface MapOverlay {
     coordinate: Coord;
-    onMarkerClick?: () => void;
+    onClick?: () => void;
 }
 export interface MarkerProps extends MapOverlay {
     anchor?: {
